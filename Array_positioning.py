@@ -11,6 +11,7 @@ def assign(a,n):
         else:
             ans[i]=a[p]
             p+=1
+    #prints out the ans
     for  i in range(n):
         print(ans[i], end=' ')
 a=[1,2,3,4,6,5]
